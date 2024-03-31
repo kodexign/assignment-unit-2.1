@@ -10,6 +10,8 @@ console.log(lastName);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
+firstName;
+lastName;
 let fullName = 'firstName' + 'lastName';
 
 console.log(fullName)
