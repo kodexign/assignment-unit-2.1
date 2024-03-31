@@ -10,7 +10,7 @@ console.log(lastName);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
-let fullName = firstName+lastName;
+let fullName = firstName + ' ' + lastName;
 
 console.log(fullName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
@@ -28,11 +28,14 @@ let introduction = 'My name is '+ fullName + ', and I think ' + luckyNumber + ' 
 console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
+let adventurous = true;
 
-
+console.log(adventurous)
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
+let food = 'papaya salad';
 
+console.log(food);
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
 
