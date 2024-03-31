@@ -12,7 +12,7 @@ console.log(lastName);
 //     Console log the value of `fullName`
 let fullName = firstName, lastName;
 
-console.log(fullName)
+console.log(fullName);
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
