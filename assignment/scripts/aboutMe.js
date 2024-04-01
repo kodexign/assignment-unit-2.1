@@ -131,7 +131,7 @@ let mostPets;
 if(pets < friendsPets){
   mostPets = friendsPets;
 }
-else if(pets > friendsPet) {
+else if(pets > friendsPets) {
   mostPets = pets;
 }
 
