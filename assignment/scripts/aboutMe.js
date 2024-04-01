@@ -128,6 +128,15 @@ console.log(petStatus);
 
 let mostPets;
 
+if(pets < friendsPets){
+  mostPets = friendsPets;
+}
+else if(pets > friendsPet) {
+  mostPets = pets;
+}
+
+console.log(mostPets);
+
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
 //      "First is the worst" if your lucky number is 1
