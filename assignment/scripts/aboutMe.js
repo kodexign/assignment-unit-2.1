@@ -52,7 +52,7 @@ console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1;
 
-console.log(friendsPets);
+console.log (friendsPets);
 // 10 - Add two pets to your `pets` variable
 pets = pets + 2;
 
@@ -82,10 +82,14 @@ console.log(result);
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
 
-let diceRoll = 'Try agian later.';
+let diceRoll;
 
 if(luckyNumber=== 2 && adventurous === true) {
   diceRoll = 'Roll the dice!'
+}
+else {
+  diceRoll = 'Try again later.'
+
 }
 
 console.log(diceRoll);
@@ -101,13 +105,13 @@ console.log(diceRoll);
 
 let petStatus;
 
-if(pets <= allowedPets){
+if(pets < allowedPets){
   petStatus = 'I can have more pets';
 }
 else if( pets === allowedPets) {
-  petStatus = 'I have enought pets.';
+  petStatus = 'I have enough pets';
 }
-else if( pets>= allowedPets){
+else if( pets >= allowedPets){
   petStatus = 'Oh no, I have too many pets!'
 }
 
@@ -121,6 +125,8 @@ console.log(petStatus);
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+
+let mostPets;
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
