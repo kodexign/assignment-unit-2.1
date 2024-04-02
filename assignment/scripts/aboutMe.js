@@ -27,7 +27,7 @@ console.log(luckyNumber);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = 'My name is '+ fullName + ', and I think' + luckyNumber + ' is a winner!';
+let introduction = 'My name is '+ fullName + ', and I think ' + luckyNumber + ' is a winner!';
 
 console.log(introduction);
 
@@ -146,17 +146,18 @@ console.log(mostPets);
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
 
+//  Notes: switch code is an efficient way to run codes that have a lot of else if
 
 let luckyResult;
 
-switch(true) {
-  case luckyNumber = 1:
+switch(luckyNumber) {
+  case 1:
       luckyResult = "First is the worst"; 
     break;
-  case luckyNumber = 2:
+  case 2:
       luckyResult = "Second is the best";
     break;
-  case luckyNumber = 3:
+  case 3:
       luckyResult = "Third is the one with the polka dot dress";
     break;
   default:
@@ -167,13 +168,14 @@ switch(true) {
 console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+// what is even a ternary operator?????????
+// -a one liner replacement to using if/else statemtent or switch statements
+// -ternary oporator represent by ?:
+// -condition ? expression 1 : expression 2;
+// -paranthesis are optional
 
-
-
-
-
-
-
+result = adventurous === true  ? result= 'Adventures are great!' : result = 'How about we stay home?';
+console.log(result);
 
 
 
