@@ -18,7 +18,7 @@ console.log(fullName);
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-let luckyNumber = 7;
+let luckyNumber= 7;
 
 console.log(luckyNumber);
 
@@ -27,7 +27,7 @@ console.log(luckyNumber);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = 'My name is '+ fullName + ', and I think ' + luckyNumber + ' is a winner!';
+let introduction = 'My name is '+ fullName + ', and I think' + luckyNumber + ' is a winner!';
 
 console.log(introduction);
 
@@ -145,6 +145,26 @@ console.log(mostPets);
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+
+
+let luckyResult;
+
+switch(true) {
+  case luckyNumber = 1:
+      luckyResult = "First is the worst"; 
+    break;
+  case luckyNumber = 2:
+      luckyResult = "Second is the best";
+    break;
+  case luckyNumber = 3:
+      luckyResult = "Third is the one with the polka dot dress";
+    break;
+  default:
+      luckyResult = "Luck is what happens when preparation meets opportunity";
+    break;
+}
+
+console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
